@@ -18,6 +18,7 @@ import userRouter from './routes/user.router.js';
 
 //this allows us to use different methods at single type of URL=> 'https:localhost:8080/api/v1/users/_____'
 
+
 app.use("/api/v1/users",userRouter)//as user type 'https://localhost:8080/api/v1/users/register' in URL then control goes to userRouter and the particular method (/register)  in userRouter get called.
 
 export {app}
